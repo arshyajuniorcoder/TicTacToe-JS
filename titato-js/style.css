@@ -1,0 +1,52 @@
+.games {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+.title-game {
+    color: #ffc744;
+    font-size: 60px;
+    margin: 30px auto;
+}
+
+.players {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.game-body {
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 0px auto;
+}
+
+.cells {
+    width: 100px;
+    height: 90px;
+    font-size: 60px;
+    cursor: pointer;
+    padding: 15px 0px 0px 0px;
+    margin: 5px 5px;
+    border: 2px solid #ffc524;
+    box-shadow: 5px 5px 10px rgb(211, 211, 211);
+}
+
+.game-status {
+    color: #3b3b3b;
+    font-size: 30px;
+    margin: 40px auto 0px auto;
+}
+
+.reset-btn {
+    background-color: #ffdd76;
+    color: #ff2259;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid #f79656;
+    padding: 5px 20px;
+    margin: 60px auto;
+}
